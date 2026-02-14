@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: pc
+Build-Jdk: 17.0.2
+Implementation-Title: Project-10
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.rays
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Project-10
+Created-By: Maven Integration for Eclipse
+
