@@ -1,5 +1,8 @@
 package com.rays.service;
 
-public interface RoleServiceInt {
+import com.rays.common.BaseServiceInt;
+import com.rays.dto.RoleDTO;
+
+public interface RoleServiceInt extends BaseServiceInt<RoleDTO> {
 
 }
