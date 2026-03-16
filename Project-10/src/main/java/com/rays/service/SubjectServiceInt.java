@@ -1,5 +1,8 @@
 package com.rays.service;
 
-public interface SubjectServiceInt {
+import com.rays.common.BaseServiceInt;
+import com.rays.dto.SubjectDTO;
+
+public interface SubjectServiceInt extends BaseServiceInt<SubjectDTO> {
 
 }

@@ -1,5 +1,8 @@
 package com.rays.service;
 
-public interface TimetableServiceInt {
+import com.rays.common.BaseServiceInt;
+import com.rays.dto.TimetableDTO;
+
+public interface TimetableServiceInt extends BaseServiceInt<TimetableDTO> {
 
 }

@@ -1,4 +1,3 @@
-
 package com.rays.common;
 
 import java.sql.Timestamp;
@@ -12,12 +11,6 @@ import org.hibernate.annotations.GenericGenerator;
 
 @MappedSuperclass
 public abstract class BaseDTO implements DropdownList {
-
-	/*
-	 * @GeneratedValue(strategy = GenerationType.AUTO)
-	 * 
-	 * @Column(name = "id", nullable = false, updatable = false)
-	 */
 
 	@Id
 	@GeneratedValue(generator = "ncsPk")

@@ -1,5 +1,8 @@
 package com.rays.service;
 
-public interface CourseServiceInt {
+import com.rays.common.BaseServiceInt;
+import com.rays.dto.CourseDTO;
+
+public interface CourseServiceInt extends BaseServiceInt<CourseDTO> {
 
 }

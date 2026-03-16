@@ -1,5 +1,8 @@
 package com.rays.dao;
 
-public interface CourseDAOInt {
+import com.rays.common.BaseDAOInt;
+import com.rays.dto.CourseDTO;
+
+public interface CourseDAOInt extends BaseDAOInt<CourseDTO> {
 
 }

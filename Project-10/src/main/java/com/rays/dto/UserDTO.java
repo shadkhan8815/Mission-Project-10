@@ -1,6 +1,6 @@
 package com.rays.dto;
 
-import java.security.Timestamp;
+import java.sql.Timestamp;
 import java.util.Date;
 
 import javax.persistence.Column;

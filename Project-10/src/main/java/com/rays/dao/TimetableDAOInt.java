@@ -1,5 +1,8 @@
 package com.rays.dao;
 
-public interface TimetableDAOInt {
+import com.rays.common.BaseDAOInt;
+import com.rays.dto.TimetableDTO;
+
+public interface TimetableDAOInt  extends BaseDAOInt<TimetableDTO>{
 
 }

@@ -8,7 +8,6 @@ import com.rays.dao.RoleDAOInt;
 import com.rays.dto.RoleDTO;
 
 @Service
-@Transactional
 public class RoleServiceImp extends BaseServiceImpl<RoleDTO, RoleDAOInt> implements RoleServiceInt {
 
 }
